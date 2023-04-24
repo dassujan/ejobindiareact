@@ -1,15 +1,13 @@
-import FunState from "./components/FunState";
-import ClassState from "./components/ClassState";
-import FunInputs from './components/FunInputs.jsx'
-import FunForm from "./components/FunForm";
+import ReactFromCheck from "./components/ReactFromCheck";
+import ClassInputs from "./components/ClassInputs";
+import FormikFormHandle from "./components/ReactForm/FormikFormHandle";
 
 function App() {
   return (
     <div>
-      {/* <FunState/> */}
-      {/* <ClassState/> */}
-      {/* <FunInputs/> */}
-      <FunForm/>
+      {/* <ReactFromCheck/> */}
+      {/* <ClassInputs/> */}
+      <FormikFormHandle/>
     </div>
   );
 }
