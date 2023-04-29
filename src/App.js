@@ -1,13 +1,11 @@
-import ReactFromCheck from "./components/ReactFromCheck";
-import ClassInputs from "./components/ClassInputs";
-import FormikFormHandle from "./components/ReactForm/FormikFormHandle";
+import FormikFormValidate from "./components/ReactForm/FormikFormValidate";
+import YapFormValidate from "./components/ReactForm/YapFormValidate";
 
 function App() {
   return (
     <div>
-      {/* <ReactFromCheck/> */}
-      {/* <ClassInputs/> */}
-      <FormikFormHandle/>
+      {/* <FormikFormValidate/> */}
+      <YapFormValidate/>
     </div>
   );
 }
