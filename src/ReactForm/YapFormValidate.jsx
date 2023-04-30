@@ -43,7 +43,7 @@ const YapFormValidate = () => {
                     </td>
                     <td>
                         <input type='text' name='uName' onChange={formik.handleChange} value={formik.values.uName}/>
-                        {formik.errors.uName?<em>{formik.errors.uName}</em>:null}
+                        {formik.touched.uName && formik.errors.uName?<em>{formik.errors.uName}</em>:null}
                     </td>
                 </tr>
                 <tr>

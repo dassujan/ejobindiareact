@@ -1,12 +1,12 @@
-import FormikFormValidate from "./components/ReactForm/FormikFormValidate";
-import YapFormValidate from "./components/ReactForm/YapFormValidate";
+import FormikFormValidate from "./ReactForm/FormikFormValidate";
+import YapFormValidate from "./ReactForm/YapFormValidate";
 
 function App() {
   return (
-    <div>
-      {/* <FormikFormValidate/> */}
-      <YapFormValidate/>
-    </div>
+    <>
+    {/* <FormikFormValidate/> */}
+    <YapFormValidate/>
+    </>
   );
 }
 export default App;
