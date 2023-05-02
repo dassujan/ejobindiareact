@@ -1,13 +1,10 @@
-// import StateManagement from "./HOC/StateManagement"
-import HocParent from "./HOC/HocParent";
-import LifeCycle from "./HOC/LifeCycle";
+import ParentRouter from "./Router/ParentRouter";
+
 
 function App() {
   return (
     <>
-      {/* <StateManagement/> */}
-      {/* <HocParent/> */}
-      <LifeCycle/>
+      <ParentRouter/>
     </>
   );
 }
