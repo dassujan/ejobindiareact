@@ -10,6 +10,10 @@ const NavBar = () => {
             <Link className='nav-link text-decoration-none text-light' to='/profile'>Profile</Link>
             <Link className='nav-link text-decoration-none text-light' to='/contact'>Contact</Link>
             <Link className='nav-link text-decoration-none text-light' to='/help'>Help</Link>
+            <Link className='nav-link text-decoration-none text-light' to='/d_users/shan'>Shan</Link>
+            <Link className='nav-link text-decoration-none text-light' to='/login'>LOGIN</Link>
+            {/* <Link className='nav-link text-decoration-none text-light' to='/d_users/sujan'>Sujan</Link>
+            <Link className='nav-link text-decoration-none text-light' to='/d_users/ananya'>Ananya</Link> */}
         </nav>
 
     </div>
