@@ -1,12 +1,15 @@
-import ParentRouter from "./Router/ParentRouter";
-import StorageAccess from "./Router/StorageAccess";
-
+import UseCallBackHook from "./Hooks/UseCallBackHook";
+import UseEffectHook from "./Hooks/UseEffectHook";
+import UseMemoHook from "./Hooks/UseMemoHook";
+import UseReduceHook from "./Hooks/UseReduceHook";
 
 function App() {
   return (
     <>
-      <ParentRouter/>
-      {/* <StorageAccess/> */}
+      {/* <UseEffectHook/> */}
+      {/* <UseReduceHook/> */}
+      {/* <UseCallBackHook/> */}
+      <UseMemoHook/>
     </>
   );
 }
