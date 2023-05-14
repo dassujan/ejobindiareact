@@ -1,15 +1,10 @@
-import UseCallBackHook from "./Hooks/UseCallBackHook";
-import UseEffectHook from "./Hooks/UseEffectHook";
-import UseMemoHook from "./Hooks/UseMemoHook";
-import UseReduceHook from "./Hooks/UseReduceHook";
+import Counter from "./Redux/Counter";
+
 
 function App() {
   return (
     <>
-      {/* <UseEffectHook/> */}
-      {/* <UseReduceHook/> */}
-      {/* <UseCallBackHook/> */}
-      <UseMemoHook/>
+      <Counter/>
     </>
   );
 }
