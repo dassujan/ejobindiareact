@@ -23,7 +23,7 @@ const DataDelete = () => {
         <h2>Name :- {data.name}</h2>
         <h3>Email :- {data.email}</h3>
         <h4>UserName :- {data.username}</h4>
-        <hr/>
+        <br/>
             <button onClick={handleDelete}>Delete User</button>
         </>
     )

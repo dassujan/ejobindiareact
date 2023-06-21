@@ -26,9 +26,7 @@ const DataPut = () => {
         <h2>Name :- {data.name}</h2>
         <h3>Email :- {data.email}</h3>
         <h4>UserName :- {data.username}</h4>
-        <hr/>
-        <hr/>
-        <hr/>
+        <br/>
         <div>       
             <h2>Name :- </h2>
             <input type="text" value={name} onChange={e=>setName(e.target.value)} />

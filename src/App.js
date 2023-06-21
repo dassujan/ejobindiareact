@@ -1,5 +1,5 @@
-// import DataGetAsync from "./API Call/DataGetAsync";
-// import DataGetPromise from "./API Call/DataGetPromise";
+import DataGetAsync from "./API Call/DataGetAsync";
+import DataGetPromise from "./API Call/DataGetPromise";
 
 import DataDelete from "./API Call/DataDelete";
 import DataPost from "./API Call/DataPost";
@@ -9,13 +9,14 @@ import DynSearch from "./API Call/DynSearch";
 function App() {
   return (
     <>
-      {/* <DataGetPromise/> */}
-      {/* <DataGetAsync/> */}
-      
+      <DataGetPromise/>
+      <hr/>
+      <DataGetAsync/>
+      <hr/>
       <DataPost/>
-      <br/>
+      <hr/>
       <DataPut/>
-      <br/>
+      <hr/>
       <DataDelete/>
       {/* <DynSearch /> */}
     </>
